@@ -35,7 +35,8 @@ button {
 }
 
 .container {
-  width: 320px;
+  max-width: 320px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 16px;
   box-sizing: border-box;
@@ -61,13 +62,13 @@ button {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
   }
 
