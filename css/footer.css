@@ -201,10 +201,11 @@
   }
 
   .footer-socials {
-    margin-right: 80px;
+    align-items: flex-start;
   }
 
   .footer-subscribe {
     width: auto;
+    margin-left: auto;
   }
 }
