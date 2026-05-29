@@ -23,6 +23,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
@@ -68,5 +69,8 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+  .features-item-text {
+    font-weight: 400;
   }
 }
